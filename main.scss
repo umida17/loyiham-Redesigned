@@ -84,6 +84,7 @@ main{
                 display: flex;
                 gap: 15px;
                 margin-top: -250px;
+                margin-bottom: 120px;
                 .section1-creat{
                     h3{
                         width: 450px;
@@ -142,6 +143,150 @@ main{
                     width: 48%;
                 }
             }
+            .icon{
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
         }
     }
+     
+    .section2{
+       background: #5454D4;
+        border-bottom-right-radius: 30%;
+        margin-bottom: 100px;
+        height: 800px;  
+            .section2-container{
+                display: flex;
+                align-items: end;
+                justify-content: end;
+                 
+            
+        }
+        .container{
+            .section2-fast{
+                display: flex;
+                align-items: center;
+                 gap: 66px;
+                .cardlar{
+                    display: grid;
+                    align-items: center;
+                    grid-template-columns: repeat(2, 1fr);
+                   gap: 30px;
+              .card{
+                        width: 255px;
+                        height: 254px;
+                        background: white;
+                        border-radius: 10px;
+                        box-shadow: 0px 52px 54px 0px #413E654C;
+
+                        .card-layout{
+                            margin-top: 26px;
+                            margin-left: 28px;
+                            width: 50px;
+                            height: 50px;
+                            background: #F0403719;
+                             border-radius: 40%;
+                            padding: 12px;
+                            margin-bottom: 23px;
+                        }
+                        h3{
+                            margin-left: 28px;
+                             font-weight: 700;
+                            font-size: 24px;
+                             line-height: 100%;
+                            letter-spacing: -0.75px;
+                            color: #19191B;
+                            margin-bottom: 13px;
+                        }
+                        p{
+                             font-weight: 400;
+                            font-size: 16px;
+                             line-height: 28px;
+                             color: #696871;
+                            margin-left: 28px;
+                            margin-right: 28px;
+                        }
+
+                    }
+
+                 .card2{
+                        width: 255px;
+                        height: 254px;
+                        background: white;
+                        border-radius: 10px;
+                        box-shadow: 0px 52px 54px 0px #413E654C;
+
+                        .card-layout{
+                            margin-top: 26px;
+                            margin-left: 28px;
+                            width: 50px;
+                            height: 50px;
+                            background: #FEDC5A1A;
+                             border-radius: 40%;
+                            padding: 12px;
+                            margin-bottom: 23px;
+                        }
+                        h3{
+                            margin-left: 28px;
+                             font-weight: 700;
+                            font-size: 24px;
+                             line-height: 100%;
+                            letter-spacing: -0.75px;
+                            color: #19191B;
+                            margin-bottom: 13px;
+                        }
+                        p{
+                             font-weight: 400;
+                            font-size: 16px;
+                             line-height: 28px;
+                             color: #696871;
+                            margin-left: 28px;
+                            margin-right: 28px;
+                        }
+
+                    }
+
+                   .card3{
+                        width: 255px;
+                        height: 254px;
+                        background: white;
+                        border-radius: 10px;
+                        box-shadow: 0px 52px 54px 0px #413E654C;
+
+                        .card-layout{
+                            margin-top: 26px;
+                            margin-left: 28px;
+                            width: 50px;
+                            height: 50px;
+                            background: #5454D41A;
+                             border-radius: 40%;
+                            padding: 12px;
+                            margin-bottom: 23px;
+                        }
+                        h3{
+                            margin-left: 28px;
+                             font-weight: 700;
+                            font-size: 24px;
+                             line-height: 100%;
+                            letter-spacing: -0.75px;
+                            color: #19191B;
+                            margin-bottom: 13px;
+                        }
+                        p{
+                             font-weight: 400;
+                            font-size: 16px;
+                             line-height: 28px;
+                             color: #696871;
+                            margin-left: 28px;
+                            margin-right: 28px;
+                        }
+
+                    
+                }
+                
+            }
+        }
+    }
+}
 }
