@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  background-image: url(./img/Oval.png);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+header .header-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-navbar h2 {
+  padding-top: 23px;
+  padding-left: 35px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+}
+header .header-navbar .header-demons {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+header .header-navbar .header-demons select {
+  border: none;
+  color: #5454D4;
+}
+header .header-navbar .header-demons select option {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  color: #5454D4;
+}
+header .header-navbar .header-demons a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  color: black;
+}
+header .header-navbar .header-demons button {
+  width: 141px;
+  height: 45px;
+  border: 1px solid #C31A12;
+  background: #F04037;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.7s ease-in-out;
+}
+header .header-navbar .header-demons button:hover {
+  background: none;
+  border: 1px solid #C31A12;
+  color: #C31A12;
+  transform: scale(1.1);
+}
+
+main .section1 .container .section1-container {
+  display: flex;
+  gap: 15px;
+  margin-top: -250px;
+}
+main .section1 .container .section1-container .section1-creat h3 {
+  width: 450px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: -2.5px;
+  color: #19191B;
+  margin-bottom: 23px;
+}
+main .section1 .container .section1-container .section1-creat .pages {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #696871;
+  margin-bottom: 35px;
+  width: 530px;
+}
+main .section1 .container .section1-container .section1-creat button {
+  width: 141px;
+  height: 45px;
+  border: 1px solid #C31A12;
+  background: #F04037;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.7s ease-in-out;
+}
+main .section1 .container .section1-container .section1-creat button:hover {
+  background: none;
+  border: 1px solid #C31A12;
+  color: #C31A12;
+  transform: scale(1.1);
+}
+main .section1 .container .section1-container .section1-creat .watch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+main .section1 .container .section1-container .section1-creat .watch .intro {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  color: #5454D4;
+}
+main .section1 .container .section1-container .iphone {
+  margin-top: -60px;
+  width: 48%;
+}/*# sourceMappingURL=main.css.map */
