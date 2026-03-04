@@ -179,7 +179,7 @@ main{
                         background: white;
                         border-radius: 10px;
                         box-shadow: 0px 52px 54px 0px #413E654C;
-
+                         transition: 0.7s ease-in-out;   
                         .card-layout{
                             margin-top: 26px;
                             margin-left: 28px;
@@ -209,6 +209,9 @@ main{
                         }
 
                     }
+                    .card:hover{
+                        transform: scale(1.1);
+                    }
 
                  .card2{
                         width: 255px;
@@ -216,7 +219,7 @@ main{
                         background: white;
                         border-radius: 10px;
                         box-shadow: 0px 52px 54px 0px #413E654C;
-
+                        transition: 0.7s ease-in-out; 
                         .card-layout{
                             margin-top: 26px;
                             margin-left: 28px;
@@ -247,13 +250,17 @@ main{
 
                     }
 
+                    .card2:hover{
+                        transform: scale(1.1);
+                    }
+
                    .card3{
                         width: 255px;
                         height: 254px;
                         background: white;
                         border-radius: 10px;
                         box-shadow: 0px 52px 54px 0px #413E654C;
-
+                        transition: 0.7s ease-in-out; 
                         .card-layout{
                             margin-top: 26px;
                             margin-left: 28px;
@@ -285,13 +292,17 @@ main{
                     
                 }
 
+                .card3:hover{
+                        transform: scale(1.1);
+                    }
+
                    .card4{
                         width: 255px;
                         height: 254px;
                         background: white;
                         border-radius: 10px;
                         box-shadow: 0px 52px 54px 0px #413E654C;
-
+                        transition: 0.7s ease-in-out; 
                         .card-layout{
                             margin-top: 26px;
                             margin-left: 28px;
@@ -322,6 +333,10 @@ main{
 
                     
                 }
+
+                .card4:hover{
+                        transform: scale(1.1);
+                    }
             }
 
             .perfect{
