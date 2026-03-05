@@ -382,5 +382,137 @@ main{
             }
         }
     }
-}
+   }
+
+   .section3{
+    .container{
+        .section3-container{
+            display: flex;
+            gap: 56px;
+            justify-content: space-between;
+            margin-bottom: 122px;
+            .section3-time{
+                width: 48%;
+                margin-top: 110px;
+                h3{
+                     font-weight: 700;
+                    font-size: 60px;
+                     line-height: 70px;
+                    letter-spacing: -1.88px;
+                    color: #19191B;
+                    margin-bottom: 18px;
+                }
+                p{
+                     font-weight: 400;
+                    font-size: 21px;
+                     line-height: 39px;
+                    letter-spacing: -0.66px;
+                    color: #696871;
+                    margin-bottom: 35px;
+                }
+
+                button {
+                    position: relative;
+                    overflow: hidden;
+                    transform: translateZ(0);
+                    display: grid;
+                    place-items: center;
+                    height: 64px;
+                    padding: 0 32px;
+                    border: 0;
+                    border-radius: 10px;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    color: #ffffff;
+                    cursor: wait;
+                    }
+
+                    @keyframes loading {
+                    0% {
+                        transform: translateX(25px);
+                    }
+                    100% {
+                        transform: translateX(-20px);
+                    }
+                    }
+
+                    button > span {
+                    position: relative;
+                    z-index: 2;
+                    }
+
+                    button::before {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    top: 0;
+                    left: -100%;
+                    width: 300%;
+                    height: 100%;
+                    background:#F04037
+                        repeating-linear-gradient(
+                        60deg,
+                        transparent,
+                        transparent 10px,
+                       #f8756e 10px,
+                       #fb9590 20px
+                        );
+                    
+                    animation: loading 1s infinite linear;
+                    }
+
+            }
+            .section3-project{
+                position: relative;
+                .dasturchi{
+                    width: 100%;
+                }
+                .soya{
+                    position: absolute;
+                    margin-left: -400px;
+                    margin-top: 40px;
+                }
+                .next{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid #FEDC5A;
+                    border-radius: 10px;
+                    background: #FEDC5A;
+                    box-shadow: 0px 32px 34px 0px #1C1B2033;
+                    width: 305px;
+                    height: 113px;
+                   position: absolute;
+                   margin-top: -340px;
+                   margin-left: -68px;
+                    .kalakolchik{
+                        width: 31px;
+                        height: 31px;
+                        border: 1px solid #5454D4;
+                        background: #5454D4;
+                        border-radius: 50%;
+                        padding: 9px;
+                        margin-left: 20px;
+                    }
+                    p{
+                         font-weight: 400;
+                        font-size: 14px;
+                         line-height: 100%;
+                        letter-spacing: -0.44px;
+                        color: #19191B;
+                        margin-bottom: 5px;
+                    }
+                    h4{
+                         font-size: 21px;
+                         line-height: 100%;
+                        letter-spacing: -0.66px;
+                        color: #19191B;
+                        width: 180px;
+                    }
+                }
+            }
+
+        }
+    }
+   }
 }
