@@ -82,6 +82,7 @@ main{
         .container{
             .section1-container{
                 display: flex;
+                justify-content: space-between;
                 gap: 15px;
                 margin-top: -250px;
                 margin-bottom: 120px;
@@ -717,6 +718,7 @@ main{
                     background: white;
                     width: 330px;
                     height: 252px;
+                    transition: 0.7s ease-in-out;
                     .taylor{
                         display: flex;
                         gap: 15px;
@@ -764,12 +766,16 @@ main{
                         }
                     }
                 }
+                .quti:hover{
+                    transform: scale(1.1);
+                }
 
                  .quti2{
                     border: 1px solid #EAE9F2;
                     background: white;
                     width: 330px;
                     height: 252px;
+                    transition: 0.7s ease-in-out;
                     .taylor{
                         display: flex;
                         gap: 15px;
@@ -818,11 +824,15 @@ main{
                     }
                 }
 
+                .quti2:hover{
+                    transform: scale(1.1);
+                }
                  .quti3{
                     border: 1px solid #EAE9F2;
                     background: white;
                     width: 330px;
                     height: 252px;
+                    transition: 0.7s ease-in-out;
                     .taylor{
                         display: flex;
                         gap: 15px;
@@ -870,6 +880,10 @@ main{
                         }
                     }
                 }
+
+                .quti3:hover{
+                    transform: scale(1.1);
+                }
             }
             .sms{
                 display: flex;
@@ -891,3 +905,581 @@ main{
    }
 
 }
+
+footer{
+    background: #19191B;
+    border-top-right-radius: 30%;
+    .container{
+        .finish{
+            h5{
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 70px;
+                letter-spacing: -1.88px;
+                text-align: center;
+                color: white;
+                margin-bottom: 21px;
+            }
+            .page{
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 39px;
+                letter-spacing: -0.66px;
+                text-align: center;
+                color: #FFFFFFB2;
+                width: 515px;
+                margin: 0 auto;
+                margin-bottom: 44px;
+            }
+            form{
+                display: grid;
+                grid-template-columns: auto;
+                .name{
+                    width: 539px;
+                    height: 61px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    padding-left: 30px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                    color: #696871;
+                    margin-bottom: 15px;
+                }
+                .email{
+                     width: 539px;
+                    height: 61px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    padding-left: 30px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                    color: #696871;
+                    margin-bottom: 15px;
+                }
+                button{
+                     width: 539px;
+                    height: 61px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    background: #F04037;
+                    border: 1px solid #C31A12;
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 100%;
+                    text-align: center;
+                    color: white;
+                    margin-bottom: 126px;
+                }
+            }
+
+            .finish-malumot{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 50px;
+                h5{
+                     font-weight: 900;
+                    font-size: 24px;
+                     line-height: 100%;
+                    letter-spacing: -0.75px;
+                    color: white;
+                }
+                .About{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 22px;
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 38px;
+                        letter-spacing: -0.5px;
+                        color: white;
+                    }
+                }
+
+                 .Learn{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 22px;
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 38px;
+                        letter-spacing: -0.5px;
+                        color: white;
+                    }
+                }
+
+                 .Stories{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 15px;
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 38px;
+                        letter-spacing: -0.5px;
+                        color: white;
+                    }
+                }
+
+                 .Hire{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 22px;
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 38px;
+                        letter-spacing: -0.5px;
+                        color: white;
+                    }
+                }
+
+                
+            }
+
+            .finishlarim{
+                border-top: 1px solid #2F2F31;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    margin-top: 18px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 38px;
+                    letter-spacing: -0.41px;
+                    color: #FFFFFFB2;
+                }
+                .finish-icon{
+                    margin-top: 18px;
+                    i{
+                        color: #2424db;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:1115px){
+     main{
+        .section1{
+        .container{
+            .section1-container{
+                flex-wrap: wrap; 
+                justify-content: center;     
+               .section1-creat{
+                margin-bottom: 90px;
+               }
+            }
+        }
+    }
+    .section2{
+        height: 1143px;
+        .container{
+            .section2-fast{
+                flex-wrap: wrap;
+              justify-content: center;
+                .perfect{
+                    p{
+                        width: 450px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section3{
+        .container{
+            .section3-container{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .section4{
+        height: 1500px;
+        .container{
+            .section4-container{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .section5{
+        .container{
+            .section5-container{
+                .section5-qutichalar{
+                    flex-wrap: wrap;
+                    
+                }
+            }
+        }
+    }
+     }
+
+     footer{
+        .container{
+            .finish{
+                .finish-malumot{
+                    flex-direction: column;
+                    justify-self: center;
+                    gap: 100px;
+                }
+            }
+        }
+     }
+} 
+
+
+@media(max-width:620px){
+    header{
+        .container{
+            .header-navbar{
+                h2{
+                    font-size: 12px;
+                }
+                .header-demons{
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+     main{
+        .section1{
+        .container{
+            .section1-container{
+                flex-wrap: wrap; 
+                justify-content: center; 
+
+               .section1-creat{
+                margin-bottom: 90px;
+                h3{
+                    width: 350px;
+                    font-size: 45px;
+                }
+                .pages{
+                    width: 400px;
+                    font-size: 14px;
+                }
+               }
+            }
+        }
+    }
+    .section2{
+        height: 1693px;
+        .container{
+            .section2-fast{
+                flex-wrap: wrap;
+              justify-content: center;
+              .cardlar{
+                display: grid;
+                grid-template-columns: auto;
+                margin-top: -100px;
+              }
+                .perfect{
+                    margin-top: -30px;
+                    h2{
+                        width: 390px;
+                    }
+                    p{
+                        width: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section3{
+        .container{
+            .section3-container{
+                flex-wrap: wrap;
+                justify-content: center;
+                .section3-project{
+                    width: 60%;
+                    .soya{
+                        width: 80%;
+                    }
+                    .next{
+                        width: 270px;
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section4{
+        height: 1500px;
+        .container{
+            .section4-container{
+                flex-wrap: wrap;
+                justify-content: center;
+                .section4-new{
+                    .dasturchi{
+                        width: 60%;
+                    }
+                    .next{
+                        width: 280px;
+                        height: 80px;
+                    }
+                }
+                .section4-need{
+                    width: 50%;
+                    h2{
+                        font-size: 30px;
+                    }
+                    .card{
+                        width: 300px;
+                        height: 90px;
+                    }
+                    .card2{
+                         width: 300px;
+                        height: 90px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section5{
+        .container{
+            .section5-container{
+                h4{
+                        width: 300px;
+                        font-size: 27px;
+                    }
+                .section5-qutichalar{
+                    flex-wrap: wrap;
+                     
+                }
+            }
+        }
+    }
+     }
+
+     footer{
+        .container{
+            .finish{
+                  h5{
+                        font-size: 28px;
+                    }
+                    .page{
+                        width: 400px;
+                        font-size: 14px;
+                    }
+                    form{
+                        .name{
+                            width: 450px;
+                            height: 51px;
+                        }
+                        .email{
+                            width: 450px;
+                            height: 51px;
+                        }
+                        button{
+                            width: 450px;
+                            height: 51px;
+                        }
+                    }
+                .finish-malumot{
+                    flex-direction: column;
+                    justify-self: center;
+                    gap: 100px;
+                   
+                }
+            }
+        }
+     }
+} 
+
+
+
+
+@media(max-width:570px){
+    header{
+        .container{
+            .header-navbar{
+                display: flex;
+                gap: 4px;
+                h2{
+                    font-size: 12px;
+                }
+                .header-demons{
+                    a{
+                        font-size: 10px;
+                    }
+                    button{
+                        width: 40px;
+                        height: 30px;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+     main{
+        .section1{
+        .container{
+            .section1-container{
+                flex-wrap: wrap; 
+                justify-content: center; 
+
+               .section1-creat{
+                margin-bottom: 90px;
+                h3{
+                    width: 350px;
+                    font-size: 45px;
+                }
+                .pages{
+                    width: 400px;
+                    font-size: 14px;
+                }
+               }
+            }
+        }
+    }
+    .section2{
+        height: 1693px;
+        .container{
+            .section2-fast{
+                flex-wrap: wrap;
+              justify-content: center;
+              .cardlar{
+                display: grid;
+                grid-template-columns: auto;
+                margin-top: -100px;
+              }
+                .perfect{
+                    margin-top: -30px;
+                    h2{
+                        width: 390px;
+                    }
+                    p{
+                        width: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section3{
+        .container{
+            .section3-container{
+                flex-wrap: wrap;
+                justify-content: center;
+                .section3-project{
+                    width: 60%;
+                    .soya{
+                        width: 80%;
+                    }
+                    .next{
+                        width: 270px;
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section4{
+        height: 1500px;
+        .container{
+            .section4-container{
+                flex-wrap: wrap;
+                justify-content: center;
+                .section4-new{
+                    .dasturchi{
+                        width: 60%;
+                    }
+                    .next{
+                        width: 280px;
+                        height: 80px;
+                    }
+                }
+                .section4-need{
+                    width: 50%;
+                    h2{
+                        font-size: 30px;
+                    }
+                    .card{
+                        width: 300px;
+                        height: 90px;
+                    }
+                    .card2{
+                         width: 300px;
+                        height: 90px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section5{
+        .container{
+            .section5-container{
+                h4{
+                        width: 300px;
+                        font-size: 27px;
+                    }
+                .section5-qutichalar{
+                    flex-wrap: wrap;
+                     
+                }
+            }
+        }
+    }
+     }
+
+     footer{
+        .container{
+            .finish{
+                  h5{
+                        font-size: 28px;
+                    }
+                    .page{
+                        width: 400px;
+                        font-size: 14px;
+                    }
+                    form{
+                        .name{
+                            width: 450px;
+                            height: 51px;
+                        }
+                        .email{
+                            width: 450px;
+                            height: 51px;
+                        }
+                        button{
+                            width: 450px;
+                            height: 51px;
+                        }
+                    }
+                .finish-malumot{
+                    flex-direction: column;
+                    justify-self: center;
+                    gap: 100px;
+                   
+                }
+            }
+        }
+     }
+} 
