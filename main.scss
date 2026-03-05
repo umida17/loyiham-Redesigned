@@ -692,4 +692,202 @@ main{
     }
    }
 
+   .section5{
+    .container{
+        .section5-container{
+            margin-top: 87px;
+            h4{
+                width: 498px;
+                 font-weight: 700;
+                font-size: 60px;
+                 line-height: 70px;
+                letter-spacing: -1.88px;
+                text-align: center;
+                color: #19191B;
+                 margin: 0 auto;
+                  margin-bottom: 59px;
+            }
+            .section5-qutichalar{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 50px;
+                .quti{
+                    border: 1px solid #EAE9F2;
+                    background: white;
+                    width: 330px;
+                    height: 252px;
+                    .taylor{
+                        display: flex;
+                        gap: 15px;
+                        align-items: center;
+                         padding-top: 29px;
+                         margin-bottom: 27px;
+                        img{
+                            padding-left: 29px;
+                        }
+                        .jony{
+                            h2{
+                                 font-weight: 700;
+                                font-size: 21px;
+                                 line-height: 24px;
+                                 color: #19191B;
+                            
+                            }
+                            p{
+                                 font-weight: 400;
+                                font-size: 16px;
+                                 line-height: 24px;
+                                 color: #696871;
+                            }
+                             
+                        }
+                        i{
+                             margin-left: 40px;
+                                color: #5454D4;
+                            }
+                    }
+
+                    .cannot{
+                         font-weight: 400;
+                        font-size: 21px;
+                         line-height: 39px;
+                        letter-spacing: -0.66px;
+                        padding-left: 26px;
+                        padding-right: 26px;
+                        span{
+                             font-weight: 400;
+                            font-size: 21px;
+                             line-height: 39px;
+                            letter-spacing: -0.66px;
+                            color: #5454D4;
+                        }
+                    }
+                }
+
+                 .quti2{
+                    border: 1px solid #EAE9F2;
+                    background: white;
+                    width: 330px;
+                    height: 252px;
+                    .taylor{
+                        display: flex;
+                        gap: 15px;
+                        align-items: center;
+                         padding-top: 29px;
+                         margin-bottom: 27px;
+                        img{
+                            padding-left: 29px;
+                        }
+                        .jony{
+                            h2{
+                                 font-weight: 700;
+                                font-size: 21px;
+                                 line-height: 24px;
+                                 color: #19191B;
+                            
+                            }
+                            p{
+                                 font-weight: 400;
+                                font-size: 16px;
+                                 line-height: 24px;
+                                 color: #696871;
+                            }
+                             
+                        }
+                        i{
+                             margin-left: 60px;
+                                color: #5454D4;
+                            }
+                    }
+
+                    .cannot{
+                         font-weight: 400;
+                        font-size: 21px;
+                         line-height: 39px;
+                        letter-spacing: -0.66px;
+                        padding-left: 26px;
+                        padding-right: 26px;
+                        span{
+                             font-weight: 400;
+                            font-size: 21px;
+                             line-height: 39px;
+                            letter-spacing: -0.66px;
+                            color: #5454D4;
+                        }
+                    }
+                }
+
+                 .quti3{
+                    border: 1px solid #EAE9F2;
+                    background: white;
+                    width: 330px;
+                    height: 252px;
+                    .taylor{
+                        display: flex;
+                        gap: 15px;
+                        align-items: center;
+                         padding-top: 29px;
+                         margin-bottom: 27px;
+                        img{
+                            padding-left: 29px;
+                        }
+                        .jony{
+                            h2{
+                                 font-weight: 700;
+                                font-size: 21px;
+                                 line-height: 24px;
+                                 color: #19191B;
+                            
+                            }
+                            p{
+                                 font-weight: 400;
+                                font-size: 16px;
+                                 line-height: 24px;
+                                 color: #696871;
+                            }
+                             
+                        }
+                        i{
+                             margin-left: 40px;
+                                color: #5454D4;
+                            }
+                    }
+
+                    .cannot{
+                         font-weight: 400;
+                        font-size: 21px;
+                         line-height: 39px;
+                        letter-spacing: -0.66px;
+                        padding-left: 26px;
+                        padding-right: 26px;
+                        span{
+                             font-weight: 400;
+                            font-size: 21px;
+                             line-height: 39px;
+                            letter-spacing: -0.66px;
+                            color: #5454D4;
+                        }
+                    }
+                }
+            }
+            .sms{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                margin-bottom: 80px;
+                 .see{
+                     font-weight: 500;
+                    font-size: 16px;
+                     line-height: 100%;
+                    letter-spacing: -0.5px;
+                    color: #5454D4;
+                 }
+            }
+
+        }
+    }
+   }
+
 }

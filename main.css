@@ -591,9 +591,6 @@ main .section4 .container .section4-container .section4-need .card:hover {
   background: cyan;
   transform: scale(1.1);
 }
-main .section4 .container .section4-container .section4-need .card:hover h3 {
-  color: white;
-}
 main .section4 .container .section4-container .section4-need .card2 {
   border: 1px solid #EAE9F2;
   background: white;
@@ -632,6 +629,178 @@ main .section4 .container .section4-container .section4-need .card2:hover {
   background: cyan;
   transform: scale(1.1);
 }
-main .section4 .container .section4-container .section4-need .card2:hover h3 {
-  color: white;
+main .section5 .container .section5-container {
+  margin-top: 87px;
+}
+main .section5 .container .section5-container h4 {
+  width: 498px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  text-align: center;
+  color: #19191B;
+  margin: 0 auto;
+  margin-bottom: 59px;
+}
+main .section5 .container .section5-container .section5-qutichalar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti {
+  border: 1px solid #EAE9F2;
+  background: white;
+  width: 330px;
+  height: 252px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .taylor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 29px;
+  margin-bottom: 27px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .taylor img {
+  padding-left: 29px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .taylor .jony h2 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #19191B;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .taylor .jony p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696871;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .taylor i {
+  margin-left: 40px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .cannot {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti .cannot span {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 {
+  border: 1px solid #EAE9F2;
+  background: white;
+  width: 330px;
+  height: 252px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .taylor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 29px;
+  margin-bottom: 27px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .taylor img {
+  padding-left: 29px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .taylor .jony h2 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #19191B;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .taylor .jony p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696871;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .taylor i {
+  margin-left: 60px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .cannot {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti2 .cannot span {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 {
+  border: 1px solid #EAE9F2;
+  background: white;
+  width: 330px;
+  height: 252px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .taylor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 29px;
+  margin-bottom: 27px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .taylor img {
+  padding-left: 29px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .taylor .jony h2 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #19191B;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .taylor .jony p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696871;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .taylor i {
+  margin-left: 40px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .cannot {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+main .section5 .container .section5-container .section5-qutichalar .quti3 .cannot span {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #5454D4;
+}
+main .section5 .container .section5-container .sms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+main .section5 .container .section5-container .sms .see {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  color: #5454D4;
 }/*# sourceMappingURL=main.css.map */
