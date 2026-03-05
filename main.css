@@ -357,6 +357,7 @@ main .section3 .container .section3-container {
   display: flex;
   gap: 56px;
   justify-content: space-between;
+  margin-bottom: 122px;
 }
 main .section3 .container .section3-container .section3-time {
   width: 48%;
@@ -464,4 +465,27 @@ main .section3 .container .section3-container .section3-project .next h4 {
   letter-spacing: -0.66px;
   color: #19191B;
   width: 180px;
+}
+main .section3 .container .section3-container .section3-project .next:hover {
+  background: #dbcf9c;
+}
+main .section4 {
+  background: #F7F7FB;
+  height: 800px;
+  border-top-left-radius: 20%;
+}
+main .section4 .container .section4-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 127px;
+  padding-top: 120px;
+}
+main .section4 .container .section4-container .section4-new {
+  position: relative;
+}
+main .section4 .container .section4-container .section4-new .soya {
+  position: absolute;
+  margin-left: -470px;
+  margin-right: -40px;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

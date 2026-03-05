@@ -510,9 +510,44 @@ main{
                         width: 180px;
                     }
                 }
+                .next:hover{
+                    background: #dbcf9c;
+                    
+                }
             }
 
         }
     }
    }
+
+   .section4{
+    background: #F7F7FB;
+    height: 800px;
+    border-top-left-radius: 20%;
+    .container{
+        .section4-container{
+            display: flex;
+            justify-content: space-between;
+            gap: 127px;
+            padding-top: 120px;
+            
+            .section4-new{
+                position: relative;
+                .dasturchi{
+                   
+                }
+                .soya{
+                    position: absolute;
+                    margin-left: -470px;
+                    margin-right: -40px;
+                    margin-top: 20px;
+                }
+
+                
+            }
+                
+        }
+    }
+   }
+
 }
