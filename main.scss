@@ -522,17 +522,17 @@ main{
 
    .section4{
     background: #F7F7FB;
-    height: 800px;
+    height: 900px;
     border-top-left-radius: 20%;
     .container{
         .section4-container{
             display: flex;
-            justify-content: space-between;
-            gap: 127px;
+          justify-content: space-between;
             padding-top: 120px;
             
             .section4-new{
                 position: relative;
+                margin-left: 68px;
                 .dasturchi{
                    
                 }
@@ -542,8 +542,150 @@ main{
                     margin-right: -40px;
                     margin-top: 20px;
                 }
+                .next{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid #F04037;
+                    border-radius: 10px;
+                    background:#F04037;
+                    box-shadow: 0px 32px 34px 0px #1C1B2033;
+                    width: 305px;
+                    height: 113px;
+                   position: absolute;
+                   margin-top: -540px;
+                   margin-left: -68px;
+                   transition: 0.7s ease-in-out;
+                    .kalakolchik{
+                        width: 31px;
+                        height: 31px;
+                        border: 1px solid #5454D4;
+                        background: #5454D4;
+                        border-radius: 50%;
+                        padding: 9px;
+                        margin-left: 20px;
+                    }
+                    p{
+                         font-weight: 400;
+                        font-size: 14px;
+                         line-height: 100%;
+                        letter-spacing: -0.44px;
+                        color:#c8c5c5;
+                        margin-bottom: 5px;
+                    }
+                    h4{
+                         font-size: 21px;
+                         line-height: 100%;
+                        letter-spacing: -0.66px;
+                        color:#FFFFFF;
+                        width: 180px;
+                    }
+                }
+                .next:hover{
+                    background: #f882e0;
+                    transform: translateY(8.9px);
+                    h4{
+                        color: #19191B;
+                        transition: 0.6s ease-in-out;
+                    }
+                }
 
-                
+            }
+
+            .section4-need{
+                margin-top: 40px;
+                width: 490px;
+                h2{
+                     font-weight: 700;
+                    font-size: 60px;
+                     line-height: 70px;
+                    color: #19191B;
+                    margin-bottom: 20px;
+                }
+                p{
+                     font-weight: 400;
+                    font-size: 21px;
+                     line-height: 39px;
+                    letter-spacing: -0.66px;
+                    color: #696871;
+                    margin-bottom: 41px;
+                }
+                .card{
+                    border: 1px solid #EAE9F2;
+                    background: white;
+                    width: 349px;
+                    height: 95px;
+                    border-radius: 10px;
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px;
+                    transition: 0.7s ease-in-out;
+                    .unique{
+                        border-radius: 40%;
+                        background: #F0403719;
+                        padding: 17px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    h3{
+                         font-weight: 700;
+                        font-size: 21px;
+                         line-height: 100%;
+                        letter-spacing: -0.66px;
+                        color: #19191B;
+                        span{
+                             font-weight: 400;
+                            font-size: 18px;
+                             line-height: 120%;
+                            letter-spacing: -0.66px;
+                            color: #696871;
+                        }
+                    }
+                }
+                .card:hover{
+                    background: cyan;
+                    transform: scale(1.1);
+                }
+
+                   .card2{
+                    border: 1px solid #EAE9F2;
+                    background: white;
+                    width: 349px;
+                    height: 95px;
+                    border-radius: 10px;
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px;
+                    margin-top: 15px;
+                    transition: 0.7s ease-in-out;
+                    .smart{
+                        border-radius: 40%;
+                        background: #F0403719;
+                        padding: 17px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    h3{
+                         font-weight: 700;
+                        font-size: 21px;
+                         line-height: 100%;
+                        letter-spacing: -0.66px;
+                        color: #19191B;
+                        width: 170px;
+                        span{
+                             font-weight: 400;
+                            font-size: 18px;
+                             line-height: 120%;
+                            letter-spacing: -0.66px;
+                            color: #696871;
+                        }
+                    }
+                }
+
+                .card2:hover{
+                    background: cyan;
+                    transform: scale(1.1);
+                }
             }
                 
         }
